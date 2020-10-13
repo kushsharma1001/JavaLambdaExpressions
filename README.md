@@ -15,7 +15,7 @@ Example Usecase:
                     }
                   }
   
-  Now, use like this: printConditionally(people, p-> p.getFirstName.equals("Rahul")); //Assume a person class with firstName and lastName instance variables.
+Now, use like this: printConditionally(people, p-> p.getFirstName.equals("Rahul")); //Assume a person class with firstName and lastName instance variables.
 
 interface #Supplier{ //Supplier is functional interface with one method only which doesnt take arguments and returns a object of type T.
 T get();
