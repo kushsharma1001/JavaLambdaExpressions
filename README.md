@@ -7,7 +7,7 @@ https://youtu.be/MqsCdbMQjWc
 interface #Predicate{ 
 boolean test(T);
 }
-*Example Usecase: 
+**Example Usecase: 
                   void printConditionally(List<Person> personList, Predicate<Person> predicate) {
                     for(Person p : presonList){
                       if(predicate.test(p)
@@ -15,7 +15,7 @@ boolean test(T);
                     }
                   }
   
-Use like: printConditionally(people, p-> p.getFirstName.equals("Rahul")); //Assume a person class with firstName and lastName instance variables.*
+Use like: printConditionally(people, p-> p.getFirstName.equals("Rahul")); //Assume a person class with firstName and lastName instance variables.**
 
 //Supplier is functional interface with one method only which doesnt take arguments and returns an object of type T.
 interface #Supplier{ 
