@@ -15,12 +15,14 @@ Example Usecase:
                     }
                   }
   
-Now, use like this: printConditionally(people, p-> p.getFirstName.equals("Rahul")); //Assume a person class with firstName and lastName instance variables.
+Use like: printConditionally(people, p-> p.getFirstName.equals("Rahul")); //Assume a person class with firstName and lastName instance variables.
 
-interface #Supplier{ //Supplier is functional interface with one method only which doesnt take arguments and returns a object of type T.
+//Supplier is functional interface with one method only which doesnt take arguments and returns a object of type T.
+interface #Supplier{ 
 T get();
 }
 
-function{ //takes in type T and returns another type R.
+//takes in type T and returns another type R.
+function{ 
  R apply(T);
 }
