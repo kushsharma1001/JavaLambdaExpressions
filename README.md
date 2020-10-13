@@ -3,11 +3,11 @@ Lambdas in Java 8
 
 https://youtu.be/MqsCdbMQjWc
 
-//Predicate is functional interface with one method only which takes 1 argument and returns a boolean.
+//Predicate is functional interface with one method only which tests 1 argument and returns a boolean.
 interface #Predicate{ 
 boolean test(T);
 }
-Example Usecase: 
+*Example Usecase: 
                   void printConditionally(List<Person> personList, Predicate<Person> predicate) {
                     for(Person p : presonList){
                       if(predicate.test(p)
@@ -15,9 +15,9 @@ Example Usecase:
                     }
                   }
   
-Use like: printConditionally(people, p-> p.getFirstName.equals("Rahul")); //Assume a person class with firstName and lastName instance variables.
+Use like: printConditionally(people, p-> p.getFirstName.equals("Rahul")); //Assume a person class with firstName and lastName instance variables.*
 
-//Supplier is functional interface with one method only which doesnt take arguments and returns a object of type T.
+//Supplier is functional interface with one method only which doesnt take arguments and returns an object of type T.
 interface #Supplier{ 
 T get();
 }
@@ -26,3 +26,9 @@ T get();
 function{ 
  R apply(T);
 }
+
+//Consumer accepts one argument and returns nothing.
+interface Consumer{
+  accept();
+  }
+
