@@ -46,3 +46,7 @@ interface Consumer{
   accept();
   }
 
+
+
+------------------------------------------------
+Collectors methods: https://medium.com/swlh/java-collectors-and-its-20-methods-2fc422920f18
