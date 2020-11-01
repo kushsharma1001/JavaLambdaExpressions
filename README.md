@@ -1,6 +1,7 @@
 # JavaLambdaExpressions
 Lambdas in Java 8
 
+https://www.boraji.com/java-8-lambda-expression-examples
 https://youtu.be/MqsCdbMQjWc
 
 --------------------------------------------------------------------------------------------------
