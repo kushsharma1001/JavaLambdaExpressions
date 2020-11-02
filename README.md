@@ -4,6 +4,9 @@ Lambdas in Java 8
 https://www.boraji.com/java-8-lambda-expression-examples
 https://youtu.be/MqsCdbMQjWc
 
+Stream method: https://www.boraji.com/java-8-stream-limit-and-skip-methods-example
+https://www.boraji.com/java-8-stream-count-findany-findfirst-max-and-min-example
+
 --------------------------------------------------------------------------------------------------
 **Example Usecase:** 
                   void printConditionally(List<Person> personList, Predicate<Person> predicate) {
